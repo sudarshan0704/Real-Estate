@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+  background-color: rgb(174, 96, 0);
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+  
+  
+  text-align: center;
+  text-transform: capitalize;
+}
+#name
+{
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 300px;
+  background-color: rgb(217, 226, 226);
+  color: black;
+  border:2px solid black;
+  align-items: center;
+}
+button
+{
+  position: absolute;
+  left: 500px;
+  top: 150px;
+  background-color: red;
+  width: 100px;
+  border-radius: 10px;
+}
+.c
+{
+   position: relative;
+  left: 670px;
+  top: 70px;
+  width: 350px;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  /* border-top:2px solid rgb(3, 19, 53);
+  border-bottom:2px solid rgb(0, 0, 0);
+  border-right:2px solid rgb(95, 29, 117);
+  border-left:2px solid rgb(69, 31, 59); */
+   box-shadow: 20px 20px solid gray; 
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.495),inset -20px -20px 60px rgba(255, 255, 255, 0.27);
+
+
+  color:  #e6ebec;
+  color: rgb(151 153 167);
+  color: #535d67;
+  overflow: hidden; 
+
+  
+
+
+}
+/* .c1:hover{
+scale: 1.1;
+transition: 0.5s ease-in;
+} */
+.section1
+{
+  /* background-color: rgb(9, 139, 232); */
+  width: 400px;
+  height: 20vh;
+ 
+ 
+
+background-color: blue;
+/* box-shadow: 0px 14px 56px -11px #1875ff; */
+background: #1875ff;
+border-bottom:  2px  double  #090909;
+  background-color: rgb(40, 142, 57);
+ 
+ 
+}
+.pic
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 115px;
+  top: -90px;
+  border: 2px solid #090909;
+  overflow: hidden;
+}
+.pic img{
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 50%;
+  scale: 2;
+  margin-top: 30PX;
+}
+
+.details
+{
+  width: 370px;
+  height: 30vh;
+
+  position: relative;
+  top: -70px;
+  left: 15px;
+}
+.details h1,h3{
+  color: #090909;
+}
+.details h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: -20px;
+  top: -10px;
+}
+.details h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: relative;
+  left: 100px;
+  top: -25px;
+}
+.details p{
+  position: relative;
+  top: -20px;
+  left: -30px;
+  word-wrap: break-word;
+  text-align: center;
+  color: #090909;
+  margin: 10px;
+}
+/* From Uiverse.io by Angel-999 */ 
+.button {
+  display: inline-block;
+  border-radius: 7px;
+  border: none;
+  background: #1875ff;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  font-size: 11px;
+  box-shadow: 0px 14px 56px -11px #1875ff;
+  width: 9em;
+  padding: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 110px ;
+  top: -10px;
+  background-color: rgb(28, 146, 48);
+}
+.button:hover
+{
+  border: 1px solid black;
+  background-color: white;
+  transition: 0.5S ;
+  color: rgb(28, 146, 48); ;
+}
+
+
+
+
+
+
+
+.details ul
+{
+  position: relative;
+left: 15px;
+top: 10px;
+color: #913c73;
+}
+.details ul li{
+display: inline-block;
+margin-right: 30px;
+
+}
+
+
+.nav
+{
+  background-color: #EEF1F5;
+  width: 100vw;
+  height: 70px;
+}

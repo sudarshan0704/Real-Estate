@@ -1,0 +1,417 @@
+*
+{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+}
+.nav
+{
+    background-color: #ffffff;
+    width: 99vw;
+    height: 90px;
+    margin-top: 0;
+    position: relative;
+    top: -5px;
+    box-shadow: 20px 20px 60px rgba(150, 147, 147, 0.96),inset -20px -20px 60px rgba(255, 255, 255, 0.27);
+    z-index: 1;
+   
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 25px;
+position: relative;
+left: 850px;
+top: -170px;
+margin-left: 60px;
+text-align: center;
+text-decoration: none;
+color: #000000;
+font-family: "Emblema One", system-ui;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+.li>link{
+    list-style: none;
+}
+.nav ul li:hover
+{
+   color:#ee8e46 ;
+  
+
+}
+.nav img{
+    width:150px;
+    height: 150px;
+    position: relative;
+   
+    top: -30px;
+}
+.nav h3{
+     margin-left: 130px;
+    position: relative;
+    top: -120px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nosifer", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+}
+.Homepage
+{
+    background-color: #ee8e46;
+    width: 1520px;
+    height: 700px;
+    background-image: url(C:\Users\kmrag\OneDrive\Desktop\REACT_NEW\myreact\src\components\wave-haikei.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Homepage section
+{
+   
+    width:600px;
+    height: 500px;
+    margin-left: 100px;
+   position: relative;
+   top: 100px;
+}
+section >h3
+{
+color: white;
+font-size: 80px;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-transform: capitalize;
+font-family: "Emblema One", system-ui;
+}
+section h3:last-child
+{font-size: 100px;
+    margin-top: 80px;
+    color: #ee8e46;
+    font-family: "Nosifer", sans-serif;
+}
+.image
+
+{
+border: 1px solid black;
+height: 0px;
+width: 0;
+}
+ #extra{
+    color: white;
+font-size: 40px;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: relative;
+left: 880px;
+top: -400px;
+display: inline;
+    flex-direction: row;
+    width: 600px;
+    font-family: "Emblema One", system-ui;
+    font-weight: bold;
+    font-style: normal
+}
+
+.images img{
+    width:600px;
+    height: 600px;
+    position: relative;
+    left: 850px;
+    top: -440px;
+    
+    
+}
+form{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   }
+   h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+   }
+   form{
+  
+    width: 50%;
+    height: 500px;
+    position: relative;
+    top: 50px;
+   
+
+   padding-left: 30px;
+   
+
+   }
+   form>label{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: "Handlee", cursive;
+    position: relative;
+    top: 10px;
+    
+   }
+   input,textarea{
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ee8e46;
+   
+   }
+   input[type=text]{
+    height: 40px;
+    position: relative;
+    top: 15px;
+   }
+   input[type=file]{
+    position: relative;
+    top: 10px;
+    left: 40px;
+   border-radius: 0px
+   }
+   #map{
+    position: relative;
+    top: 19px;
+   }
+   #maptext{
+    position: relative;
+    top: 25px;
+   }
+   #textarea
+   {
+    position: relative;
+    top: 30px;
+   }
+   textarea
+   {
+    position: relative;
+    top: 25px;
+   }
+   .contact{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+border: 2px solid black;
+  position: relative;
+  top: 80px;
+  left: 280px;
+  width: 60%;
+  border-radius: 50px;
+ 
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.495),inset -20px -20px 60px rgba(255, 255, 255, 0.27);
+  
+
+   }
+   .image{
+   
+    width: 50%;
+    height: 500px;
+   border-radius: 20px;
+    background-image: url(contactimage.png);
+  background-position: center;
+  background-size: cover;
+  margin: 20px;
+  /* border-image: fill 0 linear-gradient(#0001,#000); */
+   }
+   /* #mode{
+    position: relative;
+    left: -100px;
+  } */
+
+   input[type=submit]{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: -260px;
+    top: 470px;
+    letter-spacing: 1px;
+   
+    color: rgb(255, 255, 255);
+    border: none;
+    border: solid rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    padding: 0px;
+    background-color: #ee8e46;
+
+   }
+   input[type=submit]:hover{
+    background-color: rgb(255, 255, 255);
+    color:#ee8e46;
+    border:  solid #ee8e46;
+   }
+  
+
+   /* //about us page */
+   .about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    border-radius: 8px;
+   
+  }
+  
+  .about-section, .past-work-section, .reviews-section {
+    margin-bottom: 40px;
+    width: 600px;
+
+  }
+  #ab-p{
+    position: relative;
+    top: -450px;
+    width: 600px;
+    left: 650px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Handlee", cursive;
+    
+}
+  .about-section img
+  {
+    position: relative;
+ scale: 1.1;
+    top: 30px;
+  }
+  
+  .past-work-section
+  {
+    position: relative;
+    top:-150px;
+    width:500px
+  }
+  
+  .about-section img, .past-work-section img, .reviews-section img {
+    
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+   
+  }
+  .past-work-section img
+  {
+    position: relative;
+   top: -250px;
+    left: 650px;
+  }
+  .past-work-section p
+  {
+    position: relative;
+    left: -400px;
+  }
+  .past-work-section p {
+    position: relative;
+    top: -800px;
+    width: 600px;
+    left: -20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Handlee", cursive;
+    
+  }
+  
+  .past-work-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    position: relative;
+    top: -780px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Handlee", cursive;
+  }
+  
+  .past-work-section ul li {
+    font-size: 1.1em;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  .reviews-section
+  {
+    position: relative;
+    top: -950px;
+    width:600px
+  }
+#hd
+  {
+position: relative;
+left: 830px;
+top: 110px;
+font-family: "Handlee", cursive;
+font-weight: bold;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+
+  }
+  .reviews-section .review {
+    background-color:#ee8e46;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    left: 650px;
+    top: -500px;
+    text-align: center;
+  }
+  
+  .reviews-section .review p {
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .reviews-section .review cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #000000;
+    text-align: right;
+  }
+  /* // not found page */
+  .not-found-container {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .not-found-container h1 {
+    font-size: 6em;
+    margin-bottom: 20px;
+    color: #ff6347;
+  }
+  
+  .not-found-container p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .not-found-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .not-found-container a:hover {
+    background-color: #0056b3;
+  }
+  
